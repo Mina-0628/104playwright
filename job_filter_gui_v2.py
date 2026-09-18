@@ -599,7 +599,7 @@ renderList();
 </html>
 """
 
-output_path = "職缺多項目篩選儀表板.html"
+output_path = "index.html"
 with open(output_path, "w", encoding="utf-8") as f:
     f.write(html_content)
 
